@@ -20,3 +20,9 @@
     margin-left: 12px;
     margin-right: 12px;
 }
+.flex-wrap{
+    flex-wrap: notwrap;
+}
+.my-2{  /* currently not using */
+    margin: 12px 0;
+}

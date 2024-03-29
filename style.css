@@ -15,6 +15,19 @@ header{
     height: 66px;
     box-shadow: rgb(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
+
+@media (max-width: 550px){
+    header{
+        background: red;
+        height: 122px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
 .left img{
     width: 32px;
     height: 23px;
@@ -45,5 +58,12 @@ nav ul li{
     margin: 12px 0;
 }
 .itemImg{
-    width: 20vw;
+    width: 16vw;
+    margin: 6px 0px;
+}
+footer{
+    padding: 23px;
+    text-align: center;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    
 }
